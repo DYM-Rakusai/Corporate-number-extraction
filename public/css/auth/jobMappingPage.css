@@ -1,0 +1,86 @@
+
+div.keyword_frame {
+    padding: 10px;
+    /*border: 2px solid #ff6f61;  色を少し柔らかく */
+    border-radius: 8px; /* 角を丸く */
+    margin-top: 20px; /* マージンを増やして分かりやすく */
+    background-color: #c7c7c7; /* 背景色を追加 */
+}
+
+div.job_keyword {
+    margin-bottom: 15px; /* マージンを増やして余白を確保 */
+    display: flex;
+    align-items: center;
+}
+
+button[name=update_job_keywords_btn] {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button[name=update_job_keywords_btn]:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+div.btn_frame {
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    border: 1px solid #ced4da;
+    color: #495057;
+    border-radius: 0.25rem;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1); /* 影を強くする */
+    padding: 10px;
+    margin-right: 10px; /* マージンを調整 */
+    flex-grow: 1;
+}
+
+a[name="delete_btn"], a[name="add_btn"] {
+    border: solid 1px #1B2654;
+    background: #fff;
+    color: #1B2654 !important;
+    padding: 7px 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+a[name="delete_btn"]:hover, a[name="add_btn"]:hover {
+    background-color: rgba(27, 38, 84, 0.1);
+    color: #1B2654;
+    border-color: #1B2654;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a[name="delete_btn"]:active, a[name="add_btn"]:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+div.add_btn_frame {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.job_map_keyword {
+    margin-bottom: 20px;
+}
+

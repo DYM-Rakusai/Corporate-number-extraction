@@ -1,0 +1,107 @@
+html {
+    background: #ecebe8;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+div.body-content {
+    background: #ecebe8;
+}
+div.msg_frame {
+    width: 90%;
+    margin: auto;
+    padding: 25px 15px;
+    border: solid 3px #0f2b7e;
+    border-radius: 10px;
+    background: #fff;
+}
+div.page_header {
+    background: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+
+div.interview_set_frame {
+    padding: 20px;
+    border: 2px dotted #000;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center; /* ラベルとラジオボタンを同じ高さに */
+    margin-bottom: 10px; /* 各ラジオボタンとラベルのペアにスペースを追加 */
+}
+
+.radio-group label {
+    margin: 0; /* ラベルのマージンをリセット */
+    padding-left: 5px; /* ラジオボタンとラベルの間にスペースを追加 */
+}
+
+input[name=pass_fail] {
+    cursor: pointer;
+}
+
+div.interview_date_set {
+    display: flex;
+}
+div.interview_time_frame {
+    margin-left: 20px;
+}
+b.form_title {
+    font-size: 120%;
+    color: red;
+}
+
+input[name=interview_date],
+select[name=interview_time] {
+    height: calc(2.19rem + 2px);
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+div.btn_frame {
+    text-align: center;
+    margin-top: 20px;
+}
+button[name=interview_set_btn] {
+    color: #0f2b7e !important;
+    background-color: #fff;
+    border-color: #0f2b7e;
+    border: 2px solid #0f2b7e;
+    border-radius: 0px;
+    box-shadow: 4px 4px 4px 0px #515151;
+    padding: 0.5rem 1.5rem; /* Paddingを大きくする */
+    font-size: 1.00rem; /* フォントサイズを大きくする */
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img.header_logo {
+    width: 25%;
+}
+div.interviewer_set {
+    margin-bottom: 15px;
+}
+
+select[name="interviewer_select"] {
+    height: calc(2.19rem + 2px);
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+div.cs_answer {
+    text-align: left;
+}
+
+

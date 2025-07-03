@@ -1,0 +1,175 @@
+
+body * {
+    box-sizing: border-box;
+}
+span {
+    font-size: 13px;
+}
+.dym-log{
+    width: 100px;
+    position: relative;
+    top: 20px;
+    height: 30px;
+}
+
+.dym_logo_a {
+    height: 39px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 73px;
+    padding: 5.6px;
+    background-color: #fff;
+    box-shadow: 0 2.1px 4.2px 0 rgba(0, 0, 0, 0.16);
+}
+
+.main-container {
+    background-color: #fafafa;
+    /* padding: 76.4px 22.4px 0px 153.2px; */
+    padding: 76.4px 22.4px 0px 14.5rem;
+    /* overflow: hidden; */
+    height: 100%;
+}
+.sidebar {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* width: 150px; */
+    width: 13rem;
+    /* background-image: linear-gradient(to bottom, #131B3F, #131B3F); */
+    background-color: #1B2654;
+    color: #fff;
+    padding: 1rem;
+}
+.main-menu {
+    margin: 0;
+    padding: 0 0 0 0px;
+    padding-bottom: 80.5px;
+}
+
+.main-menu__text {
+    line-height: 21px;
+    padding-top: 6.3px;
+    padding-bottom: 6.3px;
+    display: inline-block;
+    font-size: 13px;
+}
+.sub-menu {
+    padding-left: 0px;
+    margin-bottom: 11.2px;
+}
+.sub-menu .main-menu__item {
+    font-size: 0.8rem;
+    line-height: 33.6px;
+}
+.main-menu__item {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+}
+
+.main-menu__link {
+    padding: 8px;
+    color: #fff;
+    transition: all .1s ease-in-out;
+    display: block;
+    /* background: #131b3f; */
+    background: #1B2654;
+    border-radius: 5px;
+}
+
+.main-menu__link:hover {
+    color: inherit;
+    background-color:#425BC1;
+    text-decoration:none;
+}
+
+.sidebar_head {
+    border-bottom: 0.1px solid #4d4d79;
+    /* height: 56px; */
+}
+
+.sub-menu .main-menu__text {
+    padding-left: 12px;
+}
+.main-menu__text {
+    font-weight: 100;
+    line-height: 21px;
+    padding-top: 6.3px;
+    padding-bottom: 6.3px;
+    display: inline-block;
+}
+
+.table_head {
+    margin: 2em auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.side_icon {
+    max-width: 15%;
+}
+.menu-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.sidebar-dark .nav-item .nav-link i {
+    color: rgba(255,255,255,.3);
+}
+
+@media (min-width: 768px) {
+    .sidebar .nav-item .nav-link i {
+        font-size: .85rem;
+        margin-right: .25rem;
+    }
+}
+
+
+
+/*↓ ブロック*/
+div.block {
+    background-color: #fff;
+    margin-bottom: 30px;
+    border: 0px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 8%), 0px 4px 8px rgb(0 0 0 / 6%), 0px 2px 8px rgb(0 0 0 / 4%);
+    border-radius: 4px;
+}
+div.card-header {
+    width: 100%;
+    background-color: #1B2654;
+    color: #fff;
+}
+/*↑ ブロック*/
+
+div.side_accordion_box {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+a[name=side_accordion] {
+    border: solid 1px #fff;
+    padding: 3px 7px;
+    cursor: pointer;
+}
+
+aside.short_bar {
+    width: 4rem;
+}
+
+div.main-container.long {
+    padding: 76.4px 22.4px 0px 5rem;
+} 
+
+
+
+

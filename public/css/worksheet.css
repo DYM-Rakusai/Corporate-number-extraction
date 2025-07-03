@@ -1,0 +1,282 @@
+img.header_logo {
+    width        : 40%;
+    margin-bottom: 10px; 
+}
+
+
+div.form_header {
+    background : #fff;
+    text-align : center;
+}
+
+div.header_text p {
+    color : #000;
+}
+
+.highlight {
+    color     : red;
+    font-size : larger;
+}
+
+div.form_content {
+    background      : #ecebe8;
+    background-size : cover;
+    width           : 100%;
+    padding-top     : 30px;
+    padding-bottom  : 30px;
+}
+
+div.form_footer {
+    background : #548dde;
+    padding    : 10px 0px;
+}
+
+div.form_frame{
+    width         : 90%;
+    margin        : auto;
+    padding       : 10px 15px;
+    border        : solid 3px #0f2b7e;
+    border-radius : 10px;
+    background    : #fff;
+}
+
+div.form_title_frame {
+    display     : flex;
+    align-items : center;
+    padding     : 5px 0px 0px 0px;
+}
+
+span.form_title {
+	color       : #0f2b7e;
+	font-weight : bold;
+	font-size   : 150%;
+}
+
+span.hisuu {
+    font-size     : 60%;
+    background    : #CA0336;
+    color         : #fff;
+    padding       : 0.1em 0.5em 0.1em 0.5em;
+    margin        : 0 0 0 0.5em;
+    border-radius : 4px;
+    white-space   : nowrap;
+}
+
+div.choice_content {
+	margin-bottom : 5px;
+}
+
+select[name = "year" ],
+select[name = "month"],
+select[name = "day"  ]{
+    height           : calc(2.19rem + 2px);
+    padding          : 0.375rem 0.75rem;
+    font-size        : .9rem;
+    line-height      : 1.6;
+    color            : #495057;
+    background-color : #fff;
+    background-clip  : padding-box;
+    border           : 1px solid #ced4da;
+}
+
+
+div.form_btn {
+	text-align : center;
+	margin     : 30px 0px 30px 0px;
+}
+
+span.confirm_answer {
+    font-weight : bold;
+    font-size   : 120%;
+    padding     : 5px 5px;
+}
+
+button[name = "confirm_btn"             ],
+button[name = "send_schedule_btn"       ],
+button[name = "send_adjust_schedule_btn"] {
+    color            : #fff;
+    background-color : #0f2b7e;
+    border-color     : #0f2b7e;
+    width            : 15rem;
+    border           : 2px solid #0f2b7e;
+}
+
+button[name="return_btn"] {
+    color            : #0f2b7e;
+    background-color : #fff;
+    border-color     : #0f2b7e;
+    width            : 7rem;
+    border           : 2px solid #0f2b7e;
+    margin-right     : 45px;
+}
+button[name="complete_btn"] {
+    margin-top       : 20px;
+    color            : #fff;
+    background-color : #0f2b7e;
+    border-color     : #0f2b7e;
+    border           : 2px solid #0f2b7e;
+    width            : 7rem;
+}
+
+button[name = "confirm_btn"             ],
+button[name = "return_btn"              ],
+button[name = "complete_btn"            ],
+button[name = "send_schedule_btn"       ],
+button[name = "send_adjust_schedule_btn"] {
+    border-radius : 0px;
+    box-shadow    : 4px 4px 4px 0px #515151;
+    padding       : 0.375rem 0.75rem;
+    outline       : none;
+    font-weight   : bold;
+    cursor        : pointer;
+}
+
+div.schedule_frame {
+    text-align: center;
+}
+
+h2.schedule_title {
+    font-weight: bold;
+}
+
+div.schedule_choice_frame {
+    margin-bottom: 50px;
+}
+
+select[name^=choice_schedule_] {
+    color            : #495057;
+    background-color : #fff;
+    border           : 1px solid #484b4e;
+    border-radius    : 0.25rem;
+    width            : 85%;
+    height           : 35px;
+    font-size        : 17px;
+}
+
+table[name=schedule_table] {
+    width: 100%;
+}
+
+table[name=schedule_table] ul {
+    list-style   : none;
+    padding-left : 0px;
+    margin-top   : 1rem;
+}
+
+table[name=schedule_table] ul li:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+div.schedule_table_frame {
+    border     : 1px solid #000;
+    max-height : 450px;
+    overflow-y : scroll;
+    width      : 90%;
+    margin     : auto;
+}
+
+div.switch_schedule {
+    text-align : right;
+    margin     : auto;
+    width      : 90%;
+}
+
+p[name = "to_adjust_schedule"],
+p[name = "to_schedule"       ] {
+    text-align  : center;
+    display     : inline-block;
+    cursor      : pointer;
+    font-weight : bold;
+    color       : blue !important;
+}
+
+div.schedule_confirm        ,
+div.schedule_adjust_confirm {
+    margin-top: 20px;
+}
+
+div.thanks_frame {
+    padding: 10px;
+}
+
+.custom-confirm {
+    box-shadow       : 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding          : 20px;
+    border-radius    : 10px;
+    width            : 400px;
+    margin           : 0 auto;
+    text-align       : center;
+    background-color : #fff;
+    border           : 1px solid #ccc;
+}
+
+.confirm-text {
+    color         : red;
+    font-size     : 14px;
+    margin-bottom : 20px;
+}
+
+.confirm-buttons {
+    display         : flex;
+    justify-content : center;
+    gap             : 10px;
+}
+
+#confirmOk {
+    padding         : 5px 15px;
+    font-size       : 14px;
+    border          : 2px solid #0056b3;
+    border-radius   : 40px;
+    background-color: #007bff;
+    color           : white;
+    cursor          : pointer;
+    transition      : background-color 0.3s ease;
+    outline         : none;
+    width           : 140px;
+}
+
+#confirmOk:hover {
+    background-color: #0056b3;
+}
+
+#confirmCancel {
+    padding         : 5px 15px;
+    font-size       : 14px;
+    border          : 2px solid #007bff;
+    border-radius   : 40px;
+    background-color: white;
+    color           : #007bff;
+    cursor          : pointer;
+    transition      : background-color 0.3s ease;
+    outline         : none;
+    width           : 140px;
+}
+
+
+#confirmCancel:hover {
+    background-color: #709dce;
+}
+
+div.adjust_remarks {
+    height: 5rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+textarea[name="adjust_remarks"] {
+    border: 1px solid #000;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+p.adjust_remarks_title {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+input[name$="_other"] {
+    width: 300px;
+}

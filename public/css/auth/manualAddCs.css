@@ -1,0 +1,107 @@
+div.add_form {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+div.add_form input[type=text] {
+    display: block;
+    width: 100%;
+    height: calc(2.19rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: .9rem;
+    line-height: 1.6;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+div.add_form select,
+div.add_form input[type=date] {
+    height: calc(2.19rem + 2px);
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+div.add_form span {
+    color: #1B2654;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 0px 10px;
+}
+div.add_form span.need {
+    color: #1B2654;
+    font-weight: bold;
+    padding: 0px;
+    font-size: 100%;
+    color:red;
+}
+div.add_form span.remarks {
+    color: #1B2654;
+    font-weight: bold;
+    padding: 0px;
+    font-size: 100%;
+    color:red;
+}
+
+div.add_form span.form_title {
+    color: #1B2654;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 0px;
+}
+div.add_form label {
+    cursor: pointer;
+}
+
+
+
+div.btn_frame {
+    text-align: center;
+}
+
+button[name=add_manual_cs_btn] {
+    border-radius: 0px;
+    box-shadow: 4px 4px 4px 0px #515151;
+    padding: 0.375rem 0.75rem;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0f2b7e;
+    border-color: #0f2b7e;
+    width: 15rem;
+    border: 2px solid #0f2b7e;
+}
+/*
+table.black_list_table {
+    width: 100%;
+}
+
+table.black_list_table th {
+    background-color: #ddd;
+}
+
+table.black_list_table th,
+table.black_list_table td {
+    text-align: center;
+    padding: 5px;
+}
+
+button[name=delete_black_list_btn] {
+    border-radius: 0px;
+    box-shadow: 4px 4px 4px 0px #515151;
+    padding: 0.25rem 0.25rem;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    width: 4rem;
+    border: 2px solid red;
+}
+
+*/

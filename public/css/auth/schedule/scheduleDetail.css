@@ -1,0 +1,26 @@
+table.consumer_detail_table {
+	width: 100%;
+}
+
+
+th.detail_table_head {
+    width: 30%;
+    padding: 10px;
+}
+td.detail_info {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#modalCenterTitle,
+span.modal_back {
+    color: #fff;
+}
+
+#modalCenterTitle {
+    font-weight: bold;
+}
+
+div.modal-header {
+    background-color: #1b2654;
+}

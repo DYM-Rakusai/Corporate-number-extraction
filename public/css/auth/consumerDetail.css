@@ -1,0 +1,118 @@
+table.cs_detail {
+    width: 100%;
+}
+
+table.cs_detail th, table.cs_detail td {
+    border: 1px solid #1B2654;
+    text-align: center;
+    padding: 10px;
+}
+
+table.cs_detail th {
+    white-space: nowrap;
+}
+
+div.cs_answer {
+    text-align: left;
+}
+span.status_name {
+    border-radius: 0px;
+    padding: 0.375rem 0.75rem;
+    outline: none;
+    font-weight: bold;
+    /* cursor: pointer; */
+    color: #fff;
+    background-color: #ff5400;
+    width: 13rem;
+    border: 2px solid #ff5400;
+    display: inline-grid;
+}
+
+
+img.cs-edit-logo {
+    width: 40px;
+    float: right;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: dotted 2px #ddd;
+    cursor: pointer;
+}
+
+span.interview_set_title, 
+span.interview_way_title {
+    font-weight: bold;
+    color: #0f2b7e;
+}
+
+div.interview_change_frame,
+div.interview_set_frame,
+div.interview_set_btn_frame {
+    margin: 15px 0px;
+}
+
+select[name=interview_set] {
+    padding: 0.375rem 0.75rem;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+button[name=interview_change_btn],
+button[name=interview_set_btn],
+button[name=add_black_list],
+button[name=delete_black_list] {
+    box-shadow: 4px 4px 4px 0px #515151;
+    padding: 0.375rem 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0f2b7e;
+    border: 2px solid #0f2b7e;
+}
+button[name=interview_change_btn] {
+    background-color: #0f2b7e;
+    border: 2px solid #0f2b7e;
+}
+button[name=interview_set_btn],
+button[name=delete_black_list] {
+    background-color: red;
+    border: 2px solid red;
+}
+
+
+div.interview_div {
+    padding: 5px;
+    border: dotted 1px #0f2b7e;
+}
+
+span.set_title {
+    font-weight: bold;
+    color: red;
+    font-size: 120%;
+    display: block; 
+    text-align: center;
+}
+
+
+div.set_title_frame{
+    text-align: left;
+    padding-top: 5px;
+    /* padding-left: 5px; */
+}
+
+div.alert_box {
+    border: dotted 1px red;
+    padding: 10px;
+    margin: 25px 0px 15px 0px;
+}
+
+button[name=add_black_list],
+button[name=delete_black_list] {
+    position: absolute;
+    right: 90px;
+}

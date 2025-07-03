@@ -1,0 +1,53 @@
+div.search_body table {
+    width: 100%;
+}
+div.search_body th,
+div.search_body td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    height: calc(2.19rem + 2px);
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+label {
+    cursor: pointer;
+}
+
+div.btn_frame {
+    margin: 25px 0px 10px 0px;
+}
+
+button[name=search_btn],
+a[name=reset_btn] {
+    border-radius: 0px;
+    box-shadow: 4px 4px 4px 0px #515151;
+    padding: 0.375rem 0.75rem;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+button[name=search_btn] {
+    color: #fff !important;
+    background-color: #0f2b7e;
+    border-color: #0f2b7e;
+    width: 6rem;
+    border: 2px solid #0f2b7e;
+}
+a[name=reset_btn] {
+    color: #0f2b7e;
+    background-color: #fff;
+    border-color: #fff;
+    width: 6rem;
+    border: 2px solid #fff;
+    margin-left: 20px;
+}
+div.search_header {
+    cursor: pointer;
+}
+

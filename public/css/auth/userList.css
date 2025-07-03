@@ -1,0 +1,70 @@
+table.user_list {
+    width: 100%;
+}
+
+table.user_list th, table.user_list td {
+    border: 1px solid #1B2654;
+    text-align: center;
+    padding: 10px;
+}
+
+div.memo-area {
+    position: relative;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 55%;
+    height: 100px;
+    display: inline-table;
+}
+div.memo-area input{
+    width: 55%;
+    /* height: 100px; */
+    display: inline-table;
+}
+div.memo-area button,
+div.memo-area button:hover{
+    position: relative;
+    margin-left: 10px;
+    height: 28px;
+    width: 45px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+img.edit-logo {
+    width: 10px;
+    height: 10px;
+}
+div.user_detail {
+    text-align: left;
+}
+span.status_name {
+    border-radius: 0px;
+    padding: 0.375rem 0.75rem;
+    outline: none;
+    font-weight: bold;
+    /* cursor: pointer; */
+    color: #fff;
+    background-color: #ff5400;
+    width: 13rem;
+    border: 2px solid #ff5400;
+    display: inline-grid;
+}
+
+div.btn_frame {
+    text-align: center;
+}
+
+tr.alert_user_tr {
+    background-color: #f58e8e70;
+}
+
+div.page-nation-bottom {
+    position: relative;
+    margin-top:16px;
+}
+
+
+

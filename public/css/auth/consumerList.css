@@ -1,0 +1,112 @@
+table.cs_list {
+    width: 100%;
+}
+
+table.cs_list th, table.cs_list td {
+    border: 1px solid #1B2654;
+    text-align: center;
+    padding: 10px;
+}
+
+div.memo-area, div.re-add-area {
+    position: relative;
+    margin-top: 10px;
+}
+
+textarea,
+div.memo-area input {
+    width: 13rem;
+    display: inline-table;
+}
+
+div.memo-area button,
+div.re-add-area button {
+    display: block;
+    margin: 5px auto 0;
+    height: 30px;
+    cursor: pointer;
+    vertical-align: bottom;
+    background-color: #808080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0 10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+div.memo-area button:hover,
+div.re-add-area button:hover {
+    background-color: #666666;
+}
+
+div.memo-area button:active,
+div.re-add-area button:active {
+    background-color: #555555;
+    transform: translateY(2px); 
+    box-shadow: none;
+}
+
+img.edit-logo {
+    width: 10px;
+    height: 10px;
+}
+
+div.cs_detail {
+    text-align: left;
+}
+
+span.status_name {
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    outline: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5400;
+    width: 13rem;
+    border: 2px solid #ff5400;
+    display: inline-grid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+div.btn_frame {
+    text-align: center;
+}
+
+tr.alert_cs_tr {
+    background-color: #f58e8e70;
+}
+
+.page-nation-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.download-button-top {
+    position: relative;
+    margin: 0;
+    font-size: 14px;
+    height: 35px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    padding: 0 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: #808080;
+    color: white;
+    transition: transform 0.1s ease;
+}
+
+.download-button-top:hover {
+    background-color: #666666;
+}
+
+.download-button-top:active {
+    background-color: #555555;
+    transform: translateY(2px);
+}
