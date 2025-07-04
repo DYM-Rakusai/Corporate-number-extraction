@@ -15,8 +15,12 @@ class CreateMatchedCompaniesTable extends Migration
     {
         Schema::create('matched_companies', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('company')->nullable();         
-            $table->string('corporate_number')->nullable(); 
+            $table->string('company')->nullable();   
+            $table->string('sheet_name')->nullable();     
+            $table->string('corporate_number')->nullable();     
+            $table->string('prefectures')->nullable();
+            $table->string('cities')->nullable();
+            $table->string('address')->nullable();  
             $table->timestamps();
         });
     }
