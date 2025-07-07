@@ -18,7 +18,7 @@ class AdjustData extends Command
         DB::table('matched_companies')->truncate();
         $this->info('既存の matched_companies データを削除しました。');
 
-        $chunkSize = 10000; 
+        $chunkSize = 8000; 
         $now       = now(); 
 
         $totalMatched = 0; 
