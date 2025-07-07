@@ -31,9 +31,9 @@ class AdjustData extends Command
             ->select(
                 'sales_lists.company',
                 'sales_lists.sheet_name',
-                'sales_lists.prefectures',
-                'sales_lists.cities',
-                'sales_lists.address',
+                'all_corporate_data.prefectures', 
+                'all_corporate_data.cities',      
+                'all_corporate_data.address',
                 'all_corporate_data.corporate_number'
             )
             ->orderBy('sales_lists.company') 
