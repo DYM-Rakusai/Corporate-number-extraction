@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB; 
 
@@ -19,12 +20,19 @@ class AdjustData extends Command
         $this->info('既存の matched_companies データを削除しました。');
 
         $chunkSize = 8000; 
+        $targetDate = $this->argument('nowDate');
+        if (empty($targetDate)) {
+            $this->error('対象となる日付が指定されていません。コマンド引数を与えるか、.env に TARGET_MATCHING_DATE を設定してください。');
+            return Command::FAILURE; 
+        }
+        $carbonTargetDate = Carbon::parse($targetDate)->toDateString();
         $now       = now(); 
 
         $totalMatched = 0; 
 
        
         DB::table('sales_lists')
+            ->whereDate('sales_lists.created_at', '=', $carbonTargetDate) 
             ->join('all_corporate_data', 'sales_lists.company', '=', 'all_corporate_data.company')
             ->whereNotNull('sales_lists.company') 
             ->where('sales_lists.company', '!=', '') 
